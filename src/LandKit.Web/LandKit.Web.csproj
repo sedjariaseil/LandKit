@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <!-- ———————————— إعداد مشروع Web ———————————— -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <!-- ———————————— ربط Web مع Core و Infrastructure ———————————— -->
+  <ItemGroup>
+    <ProjectReference Include="../LandKit.Core/LandKit.Core.csproj" />
+    <ProjectReference Include="../LandKit.Infrastructure/LandKit.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

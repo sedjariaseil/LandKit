@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- ———————————— إعداد مشروع Infrastructure ———————————— -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <!-- ———————————— ربط Infrastructure مع Core ———————————— -->
+  <ItemGroup>
+    <ProjectReference Include="../LandKit.Core/LandKit.Core.csproj" />
+  </ItemGroup>
+
+</Project>
